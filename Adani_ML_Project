@@ -1,0 +1,33 @@
+# 📈 Stock Price Prediction using Linear Regression (KNIME)
+
+## Overview
+This project predicts future stock prices based on historical market data using a supervised machine learning model built in KNIME Analytics Platform.
+
+## Dataset
+- Source: ADANIPORTS__EQ__NSE__MINUTE.csv  
+- Features used: DateTime, Open, High, Low, Close, Volume  
+- Target: Close Price  
+
+## Steps Performed
+1. Imported dataset into KNIME using CSV Reader.  
+2. Created lag features using Lag Column node.  
+3. Calculated price and volume changes using Math Formula.  
+4. Trained Linear Regression model using past prices as inputs.  
+5. Evaluated model using Numeric Scorer (R², RMSE, MAE).  
+
+## Model Used
+- Algorithm: Linear Regression  
+- Type: Supervised Learning  
+- Evaluation Metrics: R², RMSE, MAE  
+
+## Results
+- R²: ~0.85  
+- RMSE: ~12.4    
+
+## Tools Used
+- KNIME Analytics Platform  
+- CSV Reader, Lag Column, Math Formula, Linear Regression Learner, Numeric Scorer  
+
+## Author
+- CHOTHANI SAHIL  
+- LinkedIn: https://www.linkedin.com/in/sahil-chothani-61a0b9346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app  
